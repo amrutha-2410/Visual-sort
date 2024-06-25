@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    height: 60%;
+    width: 80%;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.array-bar {
+    background-color: #4caf50;
+    margin: 0 1px;
+    width: calc(100% / 50 - 2px);
+}
+
+.array-bar.sorted {
+    background-color: #ff5722;
+}
